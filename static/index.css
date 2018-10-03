@@ -1,0 +1,52 @@
+html, body {
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	width: 100%;
+	align-content: center;
+	text-align: center;
+}
+body {
+	background-image: url("bcomp.png");
+}
+
+h1 {
+	color: white;
+	font-size: 120px;
+	margin-bottom: 0;
+}
+
+h2 {
+	margin-top: 0;
+	color: white;
+	font-size: 80px;
+}
+.container {
+	height: 100%;
+}
+.table-progress {
+	width: 100%;
+}
+
+#running-time {
+	color: white;
+	font-size: 80px;
+}
+
+table {
+	margin: auto;
+	background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(255, 255, 255, 0.4)), color-stop(0.111, rgba(0, 0, 0, 0.5)), color-stop(0.111, rgba(255, 255, 255, 0.4)));
+	border-collapse: collapse;
+	font-size: 50px;
+	color: white;
+	position: relative; 
+	table-layout: fixed;
+	width: 80%;
+	z-index: 10; 
+}
+
+table, th, td {
+	border: 1px solid black;
+        border-width: 5px;
+        border-color: rgba(0, 0, 0, 0.5);
+}
+
